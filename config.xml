@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<config>
+    <key>
+        <name>kMenuBaseURL</name>
+        <value>http://app-959-1328629305.orchestra.io/</value>
+    </key>
+    <key>
+        <name>kMenuBaseURLAlt</name>
+        <value>http://apps.axonista.com/</value>
+    </key>
+    <key>
+        <name>kConfigBaseURL</name>
+        <value>http://app-959-1328629305.orchestra.io/</value>
+    </key>
+    <key>
+        <name>kConfigBaseURLAlt</name>
+        <value>http://apps.axonista.com/</value>
+    </key>
+    <key>
+        <name>kConfigURL</name>
+        <value>http://app-959-1328629305.orchestra.io/config.xml</value>
+    </key>
+    <key>
+        <name>kConfigURLAlt</name>
+        <value>http://apps.axonista.com/app/dedicate/config.xml</value>
+    </key>
+    <key>
+        <name>kMenuURL</name>
+        <value>http://app-959-1328629305.orchestra.io/menu.xml</value>
+    </key>
+    <key>
+        <name>kMenuURLAlt</name>
+        <value>http://apps.axonista.com/app/dedicate/menu.xml</value>
+    </key>
+    <key>
+        <name>kDBBaseURL</name>
+        <value>http://app-959-1328629305.orchestra.io/</value>
+    </key>
+    <key>
+        <name>kDBBaseURLAlt</name>
+        <value>http://orchestra-as-3906-1328647120-99863793.us-east-1.elb.amazonaws.com/</value>
+    </key>
+    <key>
+        <name>kClientBaseURL</name>
+        <value>http://www.mtv.com/</value>
+    </key>
+    <key>
+        <name>kAPNCallBaseURLPrefix</name>
+        <value>http://mobile-tnx.mtvnservices.com/apns/controller?application=com.mtvn.Dedicate&amp;token=</value>
+    </key>
+    <key>
+        <name>kAPNCallAppendString</name>
+        <value>%02x</value>
+    </key>
+    <key>
+        <name>kAPNCallBaseURLSuffix</name>
+        <value>&amp;deviceType=prod&amp;complexKey=ACTION|INSTALL
+        </value>
+    </key>
+    <key>
+        <name>kFlurryKey</name>
+        <value>SL9PV3PHGJZQ6WF2NTRZ</value>
+    </key>
+    <key>
+        <name>kAdBannerURL</name>
+        <value>http://ad.doubleclick.net/ad/mtv.mtvi/wap/offdeck/iphone/apps/dedicate/;pos=atf;sec0=iphone;sec1=apps;sec2=dedicate;app=wap;env=live;deck=offdeck</value>
+    </key>
+    <key>
+        <name>kAdBannerJumpURL</name>
+        <value>http://ad.doubleclick.net/jump/mtv.mtvi/wap/offdeck/iphone/apps/dedicate/;pos=atf;sec0=iphone;sec1=apps;sec2=dedicate;app=wap;env=live;deck=offdeck</value>
+    </key>
+    <key>
+        <name>kTwitterFriendsURL</name>
+        <value>http://api.twitter.com/1/statuses/friends.xml?screen_name=</value>
+    </key>
+    <key>
+        <name>kDedicationPlaceholderText</name>
+        <value>Enter dedication message here...</value>
+    </key>
+    <key>
+        <name>kRecordsPerPage</name>
+        <value>10</value>
+    </key>
+    <key>
+        <name>kSenderTwitterParameter</name>
+        <value>&amp;senderTwitter=</value>
+    </key>
+    <key>
+        <name>kSenderFacebookParameter</name>
+        <value>&amp;senderFacebook=</value>
+    </key>
+    <key>
+        <name>kSenderEmailParameter</name>
+        <value>&amp;senderEmail=</value>
+    </key>
+    <key>
+        <name>kReceiverTwitterParameter</name>
+        <value>&amp;receiverTwitter=</value>
+    </key>
+    <key>
+        <name>kReceiverFacebookParameter</name>
+        <value>&amp;receiverFacebook=</value>
+    </key>
+    <key>
+        <name>kReceiverEmailParameter</name>
+        <value>&amp;receiverEmail=</value>
+    </key>
+    <key>
+        <name>kMostRecentPagesCall</name>
+        <value>most_recent_pages.php?format=json</value>
+    </key>
+    <key>
+        <name>kMostRecentCall</name>
+        <value>most_recent.php?format=json&amp;page=</value>
+    </key>
+    <key>
+        <name>kMostDedicatedPagesCall</name>
+        <value>most_dedicated_pages.php?format=json</value>
+    </key>
+    <key>
+        <name>kMostDedicatedCall</name>
+        <value>most_dedicated.php?format=json&amp;page=</value>
+    </key>
+    <key>
+        <name>kMyReceivedPagesCall</name>
+        <value>received_dedications_pages.php?format=json</value>
+    </key>
+    <key>
+        <name>kMyReceivedCall</name>
+        <value>received_dedications.php?format=json&amp;page=</value>
+    </key>
+    <key>
+        <name>kMySentPagesCall</name>
+        <value>sent_dedications_pages.php?format=json</value>
+    </key>
+    <key>
+        <name>kMySentCall</name>
+        <value>sent_dedications.php?format=json&amp;page=</value>
+    </key>
+    <key>
+        <name>kMostSentPagesCall</name>
+        <value>most_sent_pages.php?format=json</value>
+    </key>
+    <key>
+        <name>kMostSentCall</name>
+        <value>most_sent.php?format=json&amp;page=</value>
+    </key>
+    <key>
+        <name>kMostReceivedPagesCall</name>
+        <value>most_received_pages.php?format=json</value>
+    </key>
+    <key>
+        <name>kMostReceivedCall</name>
+        <value>most_received.php?format=json&amp;page=</value>
+    </key>
+    <key>
+        <name>kPostingCall</name>
+        <value>data_posting.php</value>
+    </key>
+    <key>
+        <name>kAffiliateLinkPrefix</name>
+        <value>http://click.linksynergy.com/fs-bin/stat?id=Wfo4fN0GvkE&amp;offerid=146261&amp;type=3&amp;subid=0&amp;tmpid=1826&amp;u1=MTV_Song_MTV_All_Mobile_DedicateApp&amp;RD_PARM1=</value>
+    </key>
+    <key>
+        <name>kiTunesPartnerIDParameter</name>
+        <value>&amp;partnerId=30</value>
+    </key>
+    <key>
+        <name>kiTunesCountryParameter</name>
+        <value>&amp;country=</value>
+    </key>
+    <key>
+        <name>kiTunesSearchParameter</name>
+        <value>&amp;media=musicVideo&amp;limit=1</value>
+    </key>
+    <key>
+        <name>kiTunesSearchURLPrefix</name>
+        <value>http://itunes.apple.com/search?term=</value>
+    </key>
+    <key>
+        <name>kiTunesPreviewUrl</name>
+        <value>previewUrl</value>
+    </key>
+    <key>
+        <name>kiTunesTrackUrl</name>
+        <value>trackViewUrl</value>
+    </key>
+    <key>
+        <name>kClientSearchURLPrefix</name>
+        <value>http://search-intl.mtvmusic.com/solr/mtvhive_video/select?q=</value>
+    </key>
+    <key>
+        <name>kClientSearchURLSuffix</name>
+        <value>*&amp;facet=true&amp;facet.mincount=1&amp;rows=200</value>
+    </key>
+    <key>
+        <name>kClientVideoURLPrefix</name>
+        <value>http://www.mtv.com/videos/?vid=</value>
+    </key>
+    <key>
+        <name>kClientImageURLServerPrefix</name>
+        <value>http://mtv.mtvnimages.com/uri/mgid:uma:video:mtv.com:</value>
+    </key>
+    <key>
+        <name>kClientVideoContentPrefix</name>
+        <value>mgid:uma:video:mtvmusic.com:</value>
+    </key>
+    <key>
+        <name>kClientEmbeddedVideoURLFirstComponent</name>
+        <value>http://media.mtvnservices.com/player/prime/mediaplayerprime.1.11.3.swf?uri=mgid:uma:video:mtv.com:</value>
+    </key>
+    <key>
+        <name>kClientEmbeddedVideoURLSecondComponent</name>
+        <value>&amp;type=normal&amp;ref=None&amp;group=music&amp;&amp;CONFIG_URL=http%3a%2f%2fwww.mtv.com%2fplayer%2fembed%2fAS3%2fconfiguration.jhtml%3furi%3dmgid%3auma%3avideo%3amtv.com%3a</value>
+    </key>
+    <key>
+        <name>kClientEmbeddedVideoURLThirdComponent</name>
+        <value>%26type%3dnormal%26ref%3dNone%26group%3dmusic%26ver%3dprime</value>
+    </key>
+    <key>
+        <name>kNoFavoritesMessage</name>
+        <value>You currently have no videos in your Favorites list. Tap the Dedicate button to begin browsing and tap the star beside a video.</value>
+    </key>
+    <key>
+        <name>kNoMySentMessage</name>
+        <value>You have not sent any dedications or you may not be logged in. The more dedications you send, the more you'll receive!</value>
+    </key>
+    <key>
+        <name>kNoMyReceivedMessage</name>
+        <value>You have not received any dedications or you may not be logged in. The more dedications you send, the more you'll receive!</value>
+    </key>
+    <key>
+        <name>kDedicationServerDownMessage</name>
+        <value>Our Dedications server is down. You can still browse and dedicate videos to your friends on Twitter, Facebook, or through Email. Unfortunately we will not be able to track them.</value>
+    </key>
+    <key>
+        <name>kClientServerDownMessage</name>
+        <value>MTV Servers are currently down. Please try again later.</value>
+    </key>
+    <key>
+        <name>kNoNetAccessMessage</name>
+        <value>MTV Dedicate cannot get online. Please try again later.</value>
+    </key>
+    <key>
+        <name>kNoMostRecentMessage</name>
+        <value>No dedications have yet been made. Be the first!</value>
+    </key>
+    <key>
+        <name>kNoMostDedicatedMessage</name>
+        <value>No videos have yet made it in the Most Dedicated list. Be the first!</value>
+    </key>
+    <key>
+        <name>kNoSearchResultsMessage</name>
+        <value>No Search results.</value>
+    </key> 
+    <key>
+        <name>kNoFriendsMessage</name>
+        <value>No contacts for this account.</value>
+    </key>
+    <key>
+        <name>kFacebookLoginSuccess</name>
+        <value>You've logged into Facebook</value>
+    </key>
+    <key>
+        <name>kFacebookLogoutSuccess</name>
+        <value>You've logged out from Facebook</value>
+    </key>
+    <key>
+        <name>kFacebookLoginFailure</name>
+        <value>You didn't login to Facebook.</value>
+    </key>
+    <key>
+        <name>kFacebookPostSuccess</name>
+        <value>You've made a post to Facebook!</value>
+    </key>
+    <key>
+        <name>kFacebookPostFailure</name>
+        <value>Post to Facebook failed.</value>
+    </key>
+    <key>
+        <name>kTwitterLoginSuccess</name>
+        <value>You've logged into Twitter!</value>
+    </key>
+    <key>
+        <name>kTwitterLoginFailure</name>
+        <value>You didn't login to Twitter</value>
+    </key>
+    <key>
+        <name>kTwitterLogoutSuccess</name>
+        <value>You've logged out from Twitter!</value>
+    </key>
+    <key>
+        <name>kTwitterPostSuccess</name>
+        <value>You've made a post to Twitter!</value>
+    </key>
+    <key>
+        <name>kTwitterPostFailure</name>
+        <value>Post to Twitter failed.</value>
+    </key>
+    <key>
+        <name>kEmailSentSuccess</name>
+        <value>You've sent an email.</value>
+    </key>
+    <key>
+        <name>kEmailSentFailure</name>
+        <value>Email send failed.</value>
+    </key>
+    <key>
+        <name>kDedicationFailed</name>
+        <value>Dedication failed.</value>
+    </key>
+    <key>
+        <name>kTrackNotFoundOniTunes</name>
+        <value>Track not found in iTunes Store.</value>
+    </key>
+    <key>
+        <name>kPrivateFacebookDedicationsMessage</name>
+        <value>Private dedications will still be posted to Facebook but will not show up in the app.</value>
+    </key>
+    <key>
+        <name>kPrivateTwitterDedicationsMessage</name>
+        <value>Private dedications will still be posted to Twitter but will not show up in the app.</value>
+    </key>
+    <key>
+        <name>kPrivateEmailDedicationsMessage</name>
+        <value>Private dedications will still be emailed but will not show up in the app.</value>
+    </key>
+    <key>
+        <name>kRemoveFromFavoritesMessage</name>
+        <value>Are you sure you want to remove this video from your favorites?</value>
+    </key>
+    <key>
+        <name>kDownloadingFacebookContacts</name>
+        <value>Retrieving Facebook friends list...</value>
+    </key>
+    <key>
+        <name>kDownloadingTwitterContacts</name>
+        <value>Retrieving Twitter friends list...</value>
+    </key>
+    <key>
+        <name>kDownloadingEmailContacts</name>
+        <value>Retrieving Email contacts...</value>
+    </key>
+    <key>
+        <name>kTwitterHashTag</name>
+        <value> </value>
+    </key>
+</config>
+</plist>
