@@ -18,8 +18,8 @@
        mysql_pconnect('localhost','root','root') or die ('Can\'t connect to database servers');
        mysql_select_db('mtvdedicateapp') or die ('Can\'t select database');
 	} else {
-       mysql_pconnect('a.db.shared.orchestra.io','user_02c02b04','(QEDy3qmPyAho-') or die ('Can\'t connect to database server');
-       mysql_select_db('db_02c02b04') or die ('Can\'t select database');
+       mysql_pconnect('axonistadb.cuu9qsiabehr.us-east-1.rds.amazonaws.com','axonistauser','w1ldwav32008') or die ('Can\'t connect to database server');
+       mysql_select_db('axonistadb') or die ('Can\'t select database');
 	}
 	 
     /**
@@ -31,9 +31,6 @@
 		
 		/**
 		 * Performs a query based on the supplied arrays. All values in each array are sanitised using @see Database::CleanVar()
-		 *
-		 * @package KinsaleOutDoors
-		 * @subpackage Classes
 		 *
 		 * @param array $operation SELECT|INSERT INTO|UPDATE|DELETE only
 		 * @param array $vars the fields that are to be retreived
